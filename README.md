@@ -1,5 +1,5 @@
-# Vulnerability_checker
-Script for checking vulnerable software
+# Vulnerabilities checker repository
+Scripts to verify vulnerable software
 
 Run with: 
 
