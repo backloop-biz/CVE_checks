@@ -1,4 +1,4 @@
-# Vulnerabilities checker repository
+# Repository with scripts to verify system against CVE
 Scripts to verify vulnerable software
 
 Run with: 
