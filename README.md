@@ -1,7 +1,11 @@
 # Repository with scripts to verify system against CVE
 Scripts to verify vulnerable software
 
-Update: 04-05-2022 Added script to check Nimbuspwn vulnerability CVE-2022-29799 & CVE-2022-29800 (Privilege escalation vulnerabilities discovered in Linux)
+Update: 13-06-2022 Added script to check OpenSSL c_rehash script vulnerability CVE-2022-1292
+
+    wget -q https://raw.githubusercontent.com/backloop-biz/CVE_checks/main/CVE-2022-1292.sh -O -|bash
+
+Update: 04-05-2022 Added script to check Nimbuspwn vulnerability CVE-2022-1292 (Privilege escalation vulnerabilities discovered in Linux)
 
     wget -q https://raw.githubusercontent.com/backloop-biz/CVE_checks/main/CVE-2022-29799_CVE-2022-29800.sh -O -|bash
 
