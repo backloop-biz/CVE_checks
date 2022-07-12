@@ -1,6 +1,10 @@
 # Repository with scripts to verify system against CVE
 Scripts to verify vulnerable software
 
+Update: 12-07-2022 Updated script to include the new vulnerability of OpenSSL CVE-2022-2068
+
+    wget -q https://raw.githubusercontent.com/backloop-biz/CVE_checks/main/CVE-2022-2068.sh -O -|bash
+    
 Update: 13-06-2022 Added script to check OpenSSL c_rehash script vulnerability CVE-2022-1292
 
     wget -q https://raw.githubusercontent.com/backloop-biz/CVE_checks/main/CVE-2022-1292.sh -O -|bash
